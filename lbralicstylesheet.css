@@ -20,25 +20,31 @@ h1 {
 h2 {
 	text-decoration: underline;			/* Font is underlined */
 	text-transform: uppercase;			/* All characters are uppercase */
+	font-size: 25px;
 }
 
 h3 {
 	color: #3A595C;						/* Set font colour */
-	
+	font-size: 20px;
+	text-decoration: underline;	
 }
 
 h4 {
 	color: #192E2F;						/* Set font colour */
+	font-size: 15px;
+	text-decoration: underline;	
 }
 
 
 h5 {
 	color: #7BA9A9;						/* Set font colour */
 	font-style: italic;
+	font-size: 13px;
 }
 
 p {
 	margin: 10px;						/* Set margin of all p elements */
+	font-size: 15px;
 }
 
 /* ----- Header ----- */
@@ -104,45 +110,45 @@ p {
 }
 
 /* Main content sub-categories */
-.maincontent-subcategory {
+.maincontent-subcategory {				/* Style the subcategories */
 	margin: 10px;
 	margin-bottom: 20px;
 }
 
-.maincontent-row {
+.maincontent-row {						/* Create columns */
 	display: flex;						/* Flex container */
 	flex-wrap: wrap;					/* The flex items will wrap if the page size is made smaller */
 }
 
-.maincontent-row-left {
+.maincontent-row-left {					/* Style the left column */
 	flex: 50%;							/* Setting the width of the left column */
 }
 
-.maincontent-row-right {
+.maincontent-row-right {				/* Style the right column */
 	flex: 50%;
 	text-align: right;					/* Setting the width of the right column */
 }
 
-.maincontent-text {
+.maincontent-text {						/* Style the main content text */
 	margin-top: 10px;
-	font-size: 17px;					/* Setting the size of the text */
+
 }
 
-.list li {
+.list li {								/* Style the list elements */
 	list-style-position: outside;		/* The bullet points will be outside the list item */
 	margin: 5px;
 	margin-left: 30px;
 }
 
 /* --- Sidebar column --- */
-.sidebar {
+.sidebar {								/* Style the sidebar */
 	flex: 30%;							/* Setting the width of the sidebar */
 	padding: 30px;						/* Padding */
 	background-color: #425F4B;			/* Background colour*/
 	text-align: center;					/* Centering the text */
 }
 
-.sidebar-text {
+.sidebar-text {							/* Style the sidebar text */
 	margin: 10px;
 }
 
@@ -152,19 +158,19 @@ p {
 }
 
 /* --- LinksOption Start --- */
-.socialmedia {
+.socialmedia {							/* Social media list item */
 	list-style-type: none;				/* Removes bullet points */	
 	margin-top: 20px;
 }
 
-.socialmedia li {
+.socialmedia li {						/* Style for each list item */
 	display: inline-block;				/* Displays list items horizontally instead of vertically */
 	padding: 10px;
 	cursor: pointer;					/* The cursor points when it hovers over the link */
 	font-size: 10px;
 }
 
-.socialmedia li a {
+.socialmedia li a {						/* Style for each link within the list */
 	text-decoration: none;				/* Removes underline under the link */
 	color: white;
 	font-weight: bold;
@@ -192,44 +198,45 @@ p {
 	color: white;
 }
 
-.socialmedia li:hover {					/* When the user hovers over the link, the opacity is lowered */
+.socialmedia li:hover {					/* When the user hovers over the social media link, the opacity is lowered */
 	opacity: 0.7;
 }
 /* --- LinksOption end --- */
 
 /* ----- 2nd Page Content ----- */
+/* --- ImageOption Start --- */
 .portfolio {
 	max-width: 1000px;					/* Set the maximum width of the page */
 	margin: auto;						/* Center the rows and columns */
 }
 
-.portfolio-header {
+.portfolio-header {						/* The portfolio's header */
 	margin-left: 50px;
 	margin-top: 30px;
 }
 
-.portfolio-row {
+.portfolio-row {						/* Begin a new column */
 	display: flex;						/* Flex container */
 	flex-wrap: wrap;					/* The flex items will wrap if the page size is made smaller */
 }
 
-.portfolio-column-left {
+.portfolio-column-left {				/* Left column */
 	flex: 50%;							/* Setting the width of the portfolio item */
 	padding: 30px;						/* Padding */
 }
 
-.portfolio-column-right {
+.portfolio-column-right {				/* Left column */
 	flex: 50%;							/* Setting the width of the portfolio item */
 	padding: 30px;						/* Padding */
 }
 
-.portfolio-text {
+.portfolio-text {						/* The portfolio text */
 	padding: 10px;
 	margin-top: 10px;
 	width: 400px;						/* Setting the width of the text box so that it aligns with the image width */
 	background-color: #BCD9D7;
 }
-
+/* --- ImageOption End --- */
 
 /* --- Footer --- */
 footer {
