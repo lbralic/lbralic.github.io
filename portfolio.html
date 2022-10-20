@@ -1,0 +1,108 @@
+<!--From: https://www.w3schools.com/html/default.asp -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Lucija Bralic</title>
+	<link rel="stylesheet" href="lbralicstylesheet.css">
+	
+	<!-- 
+	Website Inspiration:
+		- w3schools "How TO - Make a Website" https://www.w3schools.com/howto/howto_make_a_website.asp
+		- Resume Template https://www.wix.com/website-template/view/html/2250
+		- Colour Palette https://www.fubiz.net/2015/10/09/nature-colors-palettes/palette-16/
+	-->
+</head>
+
+<body>
+
+<!-- Header -->
+<div class = "header">
+	<h1>Lucija Bralic</h1>
+	<h3>GIS Student</h3>
+</div>
+
+<!-- MenuOption Begin -->
+<!-- Inspiration: https://www.w3schools.com/css/css_navbar_horizontal.asp -->
+<ul class="navbar">
+  <li><a href="index.html">Resume</a></li>
+  <li><a class="active" href="portfolio.html">Portfolio</a></li>
+</ul>
+<!-- MenuOption End -->
+
+
+
+<!-- ImageOption Begin -->
+<!-- Creating a container that houses all of the portfolio content -->
+<div class = "portfolio">
+	<div class = "portfolio-header">
+	<h2>Portfolio</h2>
+	<p>This is a portfolio of photos that I took when volunteering for the Bay Area Restoration Council (BARC) in 2021.</p>
+</div>
+	<!-- Creating two even columns that contain two images and the image information -->
+	<!-- Inspiration: Columns - https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+	<!-- Inspiration: Portfolio gallary - https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp -->
+	<div class = "portfolio-row">
+		<!-- Left column -->
+		<div class = "portfolio-column-left">
+			<!-- 400x300px Image -->
+			<img src="windermere_basin.jpg" alt="Windermere Basin" width="400" height="300">
+			<!-- Descriptive text, contained within a coloured box -->
+			<div class = "portfolio-text">
+				<h3>Windermere Basin</h3>
+				<h4>Sept. 24 2021</h4>
+			</div>
+		</div>
+		<!-- Right column -->
+		<div class = "portfolio-column-right">
+			<!-- 400x300px Image, same as above -->
+			<img src="albion_falls.jpg" alt="Albion Falls" width="400" height="300">
+			<!-- Descriptive text, contained within a coloured box, same as above -->
+			<div class = "portfolio-text">
+				<h3>Albion Falls</h3>
+				<h4>Sept. 25, 2021</h4>
+			</div>
+		</div>
+	</div>
+	<!-- Creating a second row -->
+	<div class = "portfolio-row">
+		<div class = "portfolio-column-left">
+			<img src="spencer_creek.jpg" alt="Spencer Creek" width="400" height="300">
+				<div class = "portfolio-text">
+					<h3>Spencer Creek</h3>
+					<h4>Oct. 5, 2021</h4>
+				</div>
+		</div>
+		<div class = "portfolio-column-right">
+			<img src="hydro_one.jpg" alt="Hydro One" width="400" height="300">
+				<div class = "portfolio-text">
+					<h3>Hydro One Dundas</h3>
+					<h4>Oct. 5, 2021</h4>
+				</div>
+		</div>
+	</div>
+	<!-- Creating a third row -->
+	<div class = "portfolio-row">
+		<div class = "portfolio-column-left">
+			<img src="lasalle_park.jpg" alt="Lasalle Park" width="400" height="300">
+				<div class = "portfolio-text">
+					<h3>Lasalle Park</h3>
+					<h4>Oct. 22, 2021</h4>
+				</div>
+		</div>
+		<div class = "portfolio-column-right">
+			<img src="joe_sam_park.jpg" alt="Joe Sam Park" width="400" height="300">
+				<div class = "portfolio-text">
+					<h3>Joe Sam Park</h3>
+					<h4>Oct. 29, 2021</h4>
+				</div>
+		</div>
+	</div>	
+</div>
+<!-- ImageOption End -->
+
+<footer>
+	<p>Created by Lucija Bralic, 2022</p>
+</footer>
+
+</body>
+</html> 
